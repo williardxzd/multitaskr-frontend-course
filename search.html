@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex-prueba</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="search.css">
+<script src="search.js" type="text/javascript" defer></script>
+</head>
+<body>
+    
+    <form action="" onsubmit="searchPokemon(event)">
+    <input type="text" name="pokemon" autocomplete="off">
+    </form>
+<div data-poke-card class="poke-card">
+    <div data-poke-name>Pokedex</div>
+    <div data-poke-img-container class="img-container">
+    <img data-poke-img class="poke-img" src="img/empty-shadow.png">
+    </div>
+    <div data-poke-id></div>
+    <div data-poke-types class="poke-types"></div>
+    <div data-poke-stats class="poke-stats"></div>
+    <div class="mb-5">
+        <a class="btn btn-warning" href="index.html">Return</a>  
+    </div>
+</div>
+
+
+</body>
+</html>
+
+

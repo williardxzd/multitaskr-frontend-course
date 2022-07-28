@@ -14,6 +14,7 @@ http.onreadystatechange = function() {
             <a href="index.html" class="card-link">Back</a> \
             <a href="edit.html" class="card-link">Edit</a> \
             <a href="delete.html" class="card-link">Delete</a> \
+            <a href="delete.html" class="card-link">Prueba</a> \
         </div> \
     </div>`;
 }
